@@ -13,6 +13,11 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+  font-size: 1.25em;
+}
+
+.text-li-propos {
+  font-size: 1.25em;
 }
 
 .button-collapse {
@@ -70,11 +75,11 @@ footer.page-footer {
 }
 
 .menu-scroll {
-  margin-top: 50px;
+  margin-top: 75px;
 }
 
 .overlay {  
-  background-image: url(/images/overlay.png);
+  background-image: url(/images/overlay/overlay-50.png);
 }
 
 .title-modal {
@@ -119,6 +124,9 @@ top: 0;
   .parallax-container.form-contact {
     height: 750px;
   }
+  .materialboxed {
+    max-width: 100%;
+  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -128,4 +136,44 @@ top: 0;
   .parallax-container.form-contact {
     height: 750px;
   }
+  .materialboxed {
+    max-width: 100%;
+  }
+}
+
+.social-btn {
+  margin-right: 15px;
+}
+
+.icon-googleplus-sign {
+  color: #DC4E41;
+}
+
+.title-menu {
+  font-size: 1.5em;
+  text-shadow: 0.5px 0.5px 0.5px #6B6B6B;
+}
+
+.title-menu-footer {
+  font-size: 1.25em;
+  text-shadow: 0.5px 0.5px 0.5px #6B6B6B;
+}
+
+.title-menu-asso {
+  font-size: 1.5em;
+  text-shadow: 0.5px 0.5px 0.5px #6B6B6B;
+}
+
+.title-home {
+  font-size: 2.5em;
+  text-shadow: 0.5px 0.5px 0.5px #303030;
+}
+
+.text-adjust {
+  text-align: justify;
+}
+
+.logo-img {
+  box-shadow: -webkit-box-shadow: 1px 1px 1px 1px #BDBDBD;
+  box-shadow: 1px 1px 1px 1px #BDBDBD;
 }

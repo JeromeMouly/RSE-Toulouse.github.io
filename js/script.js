@@ -1,3 +1,4 @@
+// Parallax
 (function($){
   $(function(){
 
@@ -51,7 +52,7 @@ $(document).ready(function(){
   );
   });
 
-// Material Box
+// Material Box Effet Pop Up Photo
 $(document).ready(function(){
     $('.materialboxed').materialbox();
   });
